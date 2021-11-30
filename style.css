@@ -92,6 +92,10 @@ p {
     
 }
 
+.botao:hover{
+    background: #e21;
+}
+
 .vantagensBike{
     font-size: 4rem;
   text-transform: uppercase;
