@@ -14,6 +14,14 @@ ul{
     margin-top: 60px;
 }
 
+
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+
 .inicio{
     text-align: center;
     margin-top: 2rem;
@@ -33,7 +41,8 @@ ul{
     padding: 1rem 2rem;
     border-radius: 4px;
     color: #000000;
-    border: 2px solid #fff;
+    border: 1px solid transparent;
+    
 }
 
 .menu a:hover{
@@ -42,7 +51,7 @@ ul{
 
 .bike{
     max-width: 100%;
-    border-radius: 10px;
+    display: block;
 }
 
 .gridGeral{
@@ -52,7 +61,7 @@ ul{
 
 }
 
-.conteudoItem{
+.conteudoItemInicial{
     display: grid;
     text-align: right;
     /* padding: 2em; */
@@ -60,6 +69,17 @@ ul{
     background:  #ffffff;
     place-items: end;
 }
+
+.conteudoItem{
+    display: grid;
+    place-content: center;
+    
+    
+    background: #ffffff ;
+}
+
+
+
 
 .botao{
     background: red;
@@ -73,23 +93,25 @@ ul{
 }
 
 .vantagensBike{
-    background: #f7f7f7;
-    display: grid;
-    text-transform: uppercase;
-    justify-self: center;
-    align-self: center;
-    /* background: url(img/onda.svg); */
+    font-size: 4rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+  background-image: url('./img/onda.svg');
 }
 
 
 
 .vantagens:hover  {
-    border: 1px solid  red ;
+    border-left: 4px solid  red ;
+    
 } 
 
 .vantagens{
-    display: grid;
-    justify-self: center;
+    /* display: grid; */
+    /* justify-self: center; */
 }
 
 
@@ -121,4 +143,8 @@ ul{
     font-size: 2.5em;
     text-align: center;
 
+}
+
+.vantagens:nth-child(odd){
+    background: #f7f7f7;
 }
