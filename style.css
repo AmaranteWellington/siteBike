@@ -81,7 +81,9 @@ ul{
     /* background: url(img/onda.svg); */
 }
 
-.vantagens:hover {
+
+
+.vantagens:hover  {
     border: 1px solid  red ;
 } 
 
@@ -103,3 +105,20 @@ ul{
     
 }
 
+.detalhe{
+    /* display: inline block; */
+    background: red;
+    /* border-radius: 4px; */
+    padding: 5px 30px;
+    width: 40px;
+    position: relative;
+    left: 80px;
+}
+
+.TituloSecundario{
+    background: url(img/onda.svg);
+    display: grid;
+    font-size: 2.5em;
+    text-align: center;
+
+}
